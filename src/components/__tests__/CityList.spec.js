@@ -51,7 +51,7 @@ describe('CityList.vue Test with filled data store', () => {
             createSpy: vi.fn,
             initialState: {
               cities: { 
-                weatherData: [
+                weatherDataCauseError: [
                   {
                     'cityName': 'New Orleans',
                     'stateName': 'Louisiana',
